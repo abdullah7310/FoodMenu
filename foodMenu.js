@@ -556,7 +556,7 @@ if (day=="1"){
                 let cost = pay - 249
                 console.log(`Take your extra ${cost} rupees `);
             }else{
-                let want=349-pay
+                let want=249-pay
                 console.log(`please pay more ${want}`);
                 let paymore =Number(prompt("Enter:"))
                 if(paymore==want){
@@ -609,7 +609,8 @@ if (day=="1"){
         }
     }
 }
-}else if (day=="2"){
+}
+else if (day=="2"){
     console.log(`What would you like to have:- \n1:- breakfast \n2:- lunch \n3:- dinner`)
     let time=prompt("Enter:").toLowerCase()
  
@@ -1162,7 +1163,7 @@ if (day=="1"){
                  let cost = pay - 249
                  console.log(`Take your extra ${cost} rupees `);
              }else{
-                 let want=349-pay
+                 let want=249-pay
                  console.log(`please pay more ${want}`);
                  let paymore =Number(prompt("Enter:"))
                  if(paymore==want){
@@ -1215,7 +1216,8 @@ if (day=="1"){
          }
      }
  }
- }else if (day=="3"){
+ }
+ else if (day=="3"){
     console.log(`What would you like to have:- \n1:- breakfast \n2:- lunch \n3:- dinner`)
     let time=prompt("Enter:").toLowerCase()
  
@@ -1768,7 +1770,7 @@ if (day=="1"){
                  let cost = pay - 249
                  console.log(`Take your extra ${cost} rupees `);
              }else{
-                 let want=349-pay
+                 let want=249-pay
                  console.log(`please pay more ${want}`);
                  let paymore =Number(prompt("Enter:"))
                  if(paymore==want){
@@ -1821,7 +1823,8 @@ if (day=="1"){
          }
      }
  }
- } else if (day=="4"){
+ }
+ else if (day=="4"){
     console.log(`What would you like to have:- \n1:- breakfast \n2:- lunch \n3:- dinner`)
     let time=prompt("Enter:").toLowerCase()
  
@@ -2374,7 +2377,7 @@ if (day=="1"){
                  let cost = pay - 249
                  console.log(`Take your extra ${cost} rupees `);
              }else{
-                 let want=349-pay
+                 let want=249-pay
                  console.log(`please pay more ${want}`);
                  let paymore =Number(prompt("Enter:"))
                  if(paymore==want){
@@ -2427,7 +2430,8 @@ if (day=="1"){
          }
      }
  }
- } else if (day=="5"){
+ }
+ else if (day=="5"){
     console.log(`What would you like to have:- \n1:- breakfast \n2:- lunch \n3:- dinner`)
     let time=prompt("Enter:").toLowerCase()
  
@@ -2980,7 +2984,7 @@ if (day=="1"){
                  let cost = pay - 249
                  console.log(`Take your extra ${cost} rupees `);
              }else{
-                 let want=349-pay
+                 let want=249-pay
                  console.log(`please pay more ${want}`);
                  let paymore =Number(prompt("Enter:"))
                  if(paymore==want){
@@ -3033,7 +3037,8 @@ if (day=="1"){
          }
      }
  }
- }else if (day=="6"){
+ }
+ else if (day=="6"){
     console.log(`What would you like to have:- \n1:- breakfast \n2:- lunch \n3:- dinner`)
     let time=prompt("Enter:").toLowerCase()
  
@@ -3586,7 +3591,7 @@ if (day=="1"){
                  let cost = pay - 249
                  console.log(`Take your extra ${cost} rupees `);
              }else{
-                 let want=349-pay
+                 let want=249-pay
                  console.log(`please pay more ${want}`);
                  let paymore =Number(prompt("Enter:"))
                  if(paymore==want){
@@ -3639,7 +3644,8 @@ if (day=="1"){
          }
      }
  }
- } else{
+ }
+ else{
     console.log(`What would you like to have:- \n1:- breakfast \n2:- lunch \n3:- dinner`)
     let time=prompt("Enter:").toLowerCase()
  
@@ -4192,7 +4198,7 @@ if (day=="1"){
                  let cost = pay - 249
                  console.log(`Take your extra ${cost} rupees `);
              }else{
-                 let want=349-pay
+                 let want=249-pay
                  console.log(`please pay more ${want}`);
                  let paymore =Number(prompt("Enter:"))
                  if(paymore==want){
@@ -4246,3 +4252,8 @@ if (day=="1"){
      }
  }
  }
+ 
+ 
+ 
+ 
+ 
